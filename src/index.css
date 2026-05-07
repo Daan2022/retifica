@@ -16,6 +16,13 @@ body {
   color: white;
 }
 
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+}
+
 .pattern-diagonal-lines {
   background-image: repeating-linear-gradient(
     45deg,
