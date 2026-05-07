@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-belo-red: #E61E2A;
+  --color-belo-yellow: #E61E2A;
+  --color-belo-dark: #0f0f0f;
+  --color-belo-gray: #18181b;
+}
+
+body {
+  background-color: var(--color-belo-dark);
+  color: white;
+}
+
+.pattern-diagonal-lines {
+  background-image: repeating-linear-gradient(
+    45deg,
+    currentColor,
+    currentColor 1px,
+    transparent 1px,
+    transparent 10px
+  );
+}
